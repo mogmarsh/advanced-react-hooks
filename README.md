@@ -155,7 +155,7 @@ Each exercise has comments in it to help you get through the exercise. These fun
 emoji characters are here to help you.
 
 - **Kody the Koala** 🐨 will tell you when there's something specific you should
-  do version
+  do
 - **Marty the Money Bag** 💰 will give you specific tips (and sometimes code)
   along the way
 - **Hannah the Hundred** 💯 will give you extra challenges you can do if you
@@ -234,6 +234,13 @@ Thanks goes to these wonderful people
     <td align="center"><a href="http://jmtes.github.io"><img src="https://avatars.githubusercontent.com/u/38450133?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juno Tesoro</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=jmtes" title="Documentation">📖</a></td>
     <td align="center"><a href="http://www.andresosante.com"><img src="https://avatars.githubusercontent.com/u/37124700?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrés Osante</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=aosante" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/IanVS"><img src="https://avatars.githubusercontent.com/u/4616705?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ian VanSchooten</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=IanVS" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/giancarlol"><img src="https://avatars.githubusercontent.com/u/33439343?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giancarlo Brusca</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=giancarlol" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/tsargent"><img src="https://avatars.githubusercontent.com/u/173215?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tyler Sargent</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=tsargent" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://pavlos.dev"><img src="https://avatars.githubusercontent.com/u/100233?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pavlos Vinieratos</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=pvinis" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Hillsie"><img src="https://avatars.githubusercontent.com/u/17975287?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hills</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=Hillsie" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/diegotc86"><img src="https://avatars.githubusercontent.com/u/23508800?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Torres</b></sub></a><br /><a href="https://github.com/kentcdodds/advanced-react-hooks/commits?author=diegotc86" title="Code">💻</a></td>
   </tr>
 </table>
 
