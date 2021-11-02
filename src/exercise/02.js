@@ -15,15 +15,15 @@ function pokemonInfoReducer(state, action) {
   switch (action.type) {
     case 'pending': {
       // 🐨 replace "pokemon" with "data"
-      return {status: 'pending', pokemon: null, error: null}
+      return {status: 'pending', data: null, error: null}
     }
     case 'resolved': {
       // 🐨 replace "pokemon" with "data" (in the action too!)
-      return {status: 'resolved', pokemon: action.pokemon, error: null}
+      return {status: 'resolved', data: action.data, error: null}
     }
     case 'rejected': {
       // 🐨 replace "pokemon" with "data"
-      return {status: 'rejected', pokemon: null, error: action.error}
+      return {status: 'rejected', data: null, error: action.error}
     }
     default: {
       throw new Error(`Unhandled action type: ${action.type}`)
@@ -48,7 +48,7 @@ function PokemonInfo({pokemonName}) {
   const [state, dispatch] = React.useReducer(pokemonInfoReducer, {
     status: pokemonName ? 'pending' : 'idle',
     // 🐨 this will need to be "data" instead of "pokemon"
-    pokemon: null,
+    data: null,
     error: null,
   })
 
@@ -77,7 +77,7 @@ function PokemonInfo({pokemonName}) {
   }, [pokemonName])
 
   // 🐨 this will change from "pokemon" to "data"
-  const {pokemon, status, error} = state
+  const {data, status, error} = state
 
   if (status === 'idle' || !pokemonName) {
     return 'Submit a pokemon'
@@ -86,7 +86,7 @@ function PokemonInfo({pokemonName}) {
   } else if (status === 'rejected') {
     throw error
   } else if (status === 'resolved') {
-    return <PokemonDataView pokemon={pokemon} />
+    return <PokemonDataView pokemon={data} />
   }
 
   throw new Error('This should be impossible')
