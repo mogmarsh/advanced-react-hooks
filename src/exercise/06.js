@@ -3,8 +3,11 @@
 
 import * as React from 'react'
 
+const formatQueryDebugValue = (query) =>
+  `@media ${query}`
+
 function useMedia(query, initialState = false) {
-  React.useDebugValue(query);
+  React.useDebugValue(query, formatQueryDebugValue);
   const [state, setState] = React.useState(initialState)
   // 🐨 call React.useDebugValue here.
   // 💰 here's the formatted label I use: `\`${query}\` => ${state}`
